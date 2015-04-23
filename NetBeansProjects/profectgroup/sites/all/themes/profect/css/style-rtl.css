@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 21, 2015, 11:42:12 AM
+    Author     : fadi
+*/
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.woff) format('woff'),
+        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.woff) format('woff'),
+        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.ttf) format('truetype');
+}
+
+html,body,h1,h2,h3{
+    font-family: 'Droid Arabic Kufi' !important;
+}
+
+#main-menu ul li {
+  float: right;
+}
+.timeline .timeline-inverted .timeline-image, .timeline li .timeline-image {
+  right: 41%;
+  left: auto;
+  margin-left: 0;
+  margin-right: 18px;
+}
+ .col-sm-3, 
+.col-sm-4, .col-sm-6, 
+ .col-sm-9,
+.col-sm-10, .col-sm-11{float: right;}
+.column-title:after{
+    right: 0;
+    left: auto;
+}
+.timeline li .timeline-panel {
+  width: 50%;
+  text-align: left;}
+.clients-title_link{
+    left: auto;
+}
+.clients_showcase li{float: right;}
+#main-menu ul.menu li{margin: 0;}

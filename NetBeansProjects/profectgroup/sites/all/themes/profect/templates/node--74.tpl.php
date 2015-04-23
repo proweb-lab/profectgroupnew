@@ -1,0 +1,1 @@
+ <p><?php print render($content['field_body']) ?></p>

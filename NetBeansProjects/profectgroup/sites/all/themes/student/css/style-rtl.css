@@ -1,0 +1,88 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+.pull-left {
+    float: right!important;
+}
+.navbar-header {
+    float: right;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+ul.secondary {
+    float: left;
+}
+ul.secondary li {
+    border-left: 0px solid #ccc;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 204, 204);
+    border-right: none;
+    display: inline;
+    padding: 0 1em;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
+    float: right;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float:left;
+}
+#block-system-main-menu ul.menu li {
+
+    float: right;
+}
+.front .page-header,
+#first-time{display: none;}
+.navbar-default {
+    background-color: #fefefe;
+    border-color: #fefefe;
+}
+#block-system-main-menu
+{
+    background-color: #0064be;
+    border-color: #fefefe;
+}
+#block-system-main-menu ul.menu li a{
+    color: #F1F9F9;
+
+}
+#block-system-main-menu ul.menu li a:hover{
+    background-color: #0064be;
+}
+#block-system-main-menu ul.menu li a:hover, .nav .open>a:focus{
+    background-color: #0064be;
+}
+
+.dropdown-menu
+{
+    background-color: #0064be;
+}
+.dropdown-menu ul.menu li a:hover, .nav .open>a:focus
+{
+    background-color: #0064be;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+    background-color: #0064be;
+}
+.breadcrumb
+{
+    background-color:#FFFFFF;
+}
+
+
+#flexslider-1 ul,li{
+    list-style: none;
+}
+.flex-nav-next{
+    display: none;
+}
+.flex-nav-prev
+{
+    display: none;
+}
